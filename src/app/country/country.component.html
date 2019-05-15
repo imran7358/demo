@@ -1,0 +1,16 @@
+<div class="container">
+
+ <div class="col-xs-12 col-md-12 list-container">
+  <ul>
+    <li *ngFor = 'let country of countryinfo'>
+      <label>{{country.name}}:</label>
+      <label>{{country.capital}}:</label>
+      <label>{{country.population}}</label>
+      <label>{{country.languages[0].name}}</label>
+      <label>{{country.currencies[0].name}}</label>
+      <label class="country-flag"><img src="{{country.flag}}"></label>
+    </li>
+  </ul>
+ </div>
+
+</div>

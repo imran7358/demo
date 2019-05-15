@@ -1,0 +1,15 @@
+<div class="container-fluid emplyee_list">
+  <h2>Employee Data</h2>
+  <ul>
+    <li *ngFor = 'let emp of employee'>
+      <p><label for="">Emp Code: </label><span>{{emp.code}}</span></p>
+      <p><label for="">Emp Name: </label><span>{{emp.name}}</span></p>
+      <p><label for="">Emp Gnder: </label><span>{{emp.gneder}}</span></p>
+      <p><label for="">Emp Salary: </label><span>{{emp.annualSalary}}</span></p>
+      <p><label for="">Emp DOB: </label><span>{{emp.dateofbirth}}</span></p>
+      
+    </li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</div>
